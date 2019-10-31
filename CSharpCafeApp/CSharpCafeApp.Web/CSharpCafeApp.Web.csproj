@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpCafeApp.Data\CSharpCafeApp.Data.csproj" />
+    <ProjectReference Include="..\CSharpCafeApp.Domain\CSharpCafeApp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
